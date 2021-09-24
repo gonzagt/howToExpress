@@ -1,0 +1,26 @@
+{
+  "name": "howtoexpress",
+  "version": "1.0.0",
+  "description": "learning Expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzagt/howToExpress.git"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "gonzagt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gonzagt/howToExpress/issues"
+  },
+  "homepage": "https://github.com/gonzagt/howToExpress#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
