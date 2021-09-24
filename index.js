@@ -1,12 +1,16 @@
 const express = require('express');
 const app = express();
-const puerto = 3000;
+const port = 5050;
 
 app.get('/', (req, res) => {
-    res.send(`Hello Mundo, estamos funcionando desde el puerto ${puerto}.`);
+    res.send(`Hello Mundo, estamos funcionando desde el puerto ${port}.`);
 })
 
-app.listen(puerto, ()=> {
-    console.log(`server on port: ${puerto}`);
+app.get('/test', (req, res) => {
+    res.send(`<h1>Testeando en h1.</h1>`)
+})
+
+app.listen(port, ()=> {
+    console.log(`server on port: ${port}`);
 })
 
